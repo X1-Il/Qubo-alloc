@@ -1,0 +1,6 @@
+ variables    incremental ns      naive ns  speedup
+        25              21.6         323.3       15x
+        50              25.9         569.4       22x
+       100              20.9        1346.0       64x
+       200              27.3        5888.2      215x
+       400              45.3        9022.5      199x

@@ -1,0 +1,131 @@
+Part 0: landscape of one instance written (penalty A = 2825.67 bp)
+
+Part 1: time to solution against the exact optimum (pick n/4 of n assets)
+assets  solver  sweeps    P(opt)    TTS99 (ms)
+    16      sa      10     0.000           inf
+    16      sa      30     0.000           inf
+    16      sa     100     0.056         1.965
+    16      sa     300     0.119         2.428
+    16      sa    1000     0.306         2.692
+    16 sa-pair      10     0.550         0.074
+    16 sa-pair      30     0.963         0.044
+    16 sa-pair     100     1.000         0.076
+    16 sa-pair     300     1.000         0.204
+    16 sa-pair    1000     1.000         0.657
+    16     sqa      10     0.106         4.660
+    16     sqa      30     0.344         3.831
+    16     sqa     100     0.681         4.992
+    16     sqa     300     0.988         3.583
+    16     sqa    1000     1.000        10.682
+    16      pt      10     0.056         3.069
+    16      pt      30     0.244         1.645
+    16      pt     100     0.575         1.712
+    16      pt     300     0.919         1.759
+    16      pt    1000     1.000         3.221
+    20      sa      10     0.013         1.980
+    20      sa      30     0.025         1.692
+    20      sa     100     0.031         3.347
+    20      sa     300     0.037         7.265
+    20      sa    1000     0.075        12.584
+    20 sa-pair      10     0.494         0.095
+    20 sa-pair      30     0.863         0.073
+    20 sa-pair     100     1.000         0.091
+    20 sa-pair     300     1.000         0.277
+    20 sa-pair    1000     1.000         0.930
+    20     sqa      10     0.050        12.528
+    20     sqa      30     0.087        20.688
+    20     sqa     100     0.263        23.705
+    20     sqa     300     0.494        31.664
+    20     sqa    1000     0.912        26.800
+    20      pt      10     0.019        12.004
+    20      pt      30     0.031        18.000
+    20      pt     100     0.125        13.391
+    20      pt     300     0.319        13.639
+    20      pt    1000     0.738        14.347
+    24      sa      10     0.000           inf
+    24      sa      30     0.000           inf
+    24      sa     100     0.000           inf
+    24      sa     300     0.013        27.100
+    24      sa    1000     0.031        33.254
+    24 sa-pair      10     0.219         0.281
+    24 sa-pair      30     0.694         0.138
+    24 sa-pair     100     0.988         0.112
+    24 sa-pair     300     1.000         0.305
+    24 sa-pair    1000     1.000         0.999
+    24     sqa      10     0.000           inf
+    24     sqa      30     0.013       182.814
+    24     sqa     100     0.062       116.617
+    24     sqa     300     0.144       143.789
+    24     sqa    1000     0.362       166.232
+    24      pt      10     0.000           inf
+    24      pt      30     0.006       114.501
+    24      pt     100     0.025        87.731
+    24      pt     300     0.062       104.397
+    24      pt    1000     0.194        99.645
+
+Part 2: gap to best known, in basis points of annual utility (pick n/5 of n assets, 5 instances)
+    50  descent     10  gap     25.94 bp  time 0.2 ms
+    50       sa     10  gap    493.84 bp  time 0.2 ms
+    50       sa     30  gap    391.28 bp  time 0.3 ms
+    50       sa    100  gap    286.80 bp  time 0.4 ms
+    50       sa    300  gap    252.98 bp  time 0.8 ms
+    50       sa   1000  gap    202.14 bp  time 2.0 ms
+    50  sa-pair     10  gap     15.06 bp  time 0.3 ms
+    50  sa-pair     30  gap      3.62 bp  time 0.5 ms
+    50  sa-pair    100  gap      0.00 bp  time 1.2 ms
+    50  sa-pair    300  gap      0.00 bp  time 3.0 ms
+    50  sa-pair   1000  gap      0.00 bp  time 9.4 ms
+    50      sqa     10  gap    334.85 bp  time 1.4 ms
+    50      sqa     30  gap    207.43 bp  time 3.8 ms
+    50      sqa    100  gap    115.36 bp  time 12.5 ms
+    50      sqa    300  gap     99.40 bp  time 35.9 ms
+    50      sqa   1000  gap     91.09 bp  time 123.7 ms
+    50       pt     10  gap    319.84 bp  time 0.3 ms
+    50       pt     30  gap    278.97 bp  time 0.5 ms
+    50       pt    100  gap    215.83 bp  time 1.1 ms
+    50       pt    300  gap    191.10 bp  time 3.5 ms
+    50       pt   1000  gap    140.82 bp  time 10.3 ms
+   100  descent     10  gap     40.66 bp  time 0.6 ms
+   100       sa     10  gap    357.80 bp  time 0.9 ms
+   100       sa     30  gap    332.01 bp  time 1.0 ms
+   100       sa    100  gap    269.01 bp  time 1.5 ms
+   100       sa    300  gap    244.18 bp  time 2.1 ms
+   100       sa   1000  gap    232.18 bp  time 4.8 ms
+   100  sa-pair     10  gap     16.30 bp  time 1.1 ms
+   100  sa-pair     30  gap      5.59 bp  time 1.7 ms
+   100  sa-pair    100  gap      0.92 bp  time 3.7 ms
+   100  sa-pair    300  gap      0.22 bp  time 14.5 ms
+   100  sa-pair   1000  gap      0.00 bp  time 47.8 ms
+   100      sqa     10  gap    263.21 bp  time 5.0 ms
+   100      sqa     30  gap    235.64 bp  time 10.9 ms
+   100      sqa    100  gap    198.39 bp  time 26.0 ms
+   100      sqa    300  gap    172.96 bp  time 75.9 ms
+   100      sqa   1000  gap    150.70 bp  time 269.3 ms
+   100       pt     10  gap    280.33 bp  time 1.1 ms
+   100       pt     30  gap    256.66 bp  time 1.5 ms
+   100       pt    100  gap    242.57 bp  time 2.9 ms
+   100       pt    300  gap    209.83 bp  time 7.1 ms
+   100       pt   1000  gap    182.78 bp  time 21.8 ms
+   200  descent     10  gap     43.09 bp  time 1.9 ms
+   200       sa     10  gap    256.21 bp  time 3.9 ms
+   200       sa     30  gap    236.42 bp  time 4.2 ms
+   200       sa    100  gap    224.37 bp  time 5.1 ms
+   200       sa    300  gap    195.46 bp  time 6.5 ms
+   200       sa   1000  gap    196.23 bp  time 12.8 ms
+   200  sa-pair     10  gap     12.84 bp  time 4.8 ms
+   200  sa-pair     30  gap      4.07 bp  time 6.4 ms
+   200  sa-pair    100  gap      2.01 bp  time 12.0 ms
+   200  sa-pair    300  gap      0.47 bp  time 27.7 ms
+   200  sa-pair   1000  gap      0.21 bp  time 82.0 ms
+   200      sqa     10  gap    220.83 bp  time 9.5 ms
+   200      sqa     30  gap    198.48 bp  time 19.8 ms
+   200      sqa    100  gap    187.22 bp  time 56.9 ms
+   200      sqa    300  gap    153.91 bp  time 191.5 ms
+   200      sqa   1000  gap    134.46 bp  time 599.3 ms
+   200       pt     10  gap    244.00 bp  time 4.6 ms
+   200       pt     30  gap    220.96 bp  time 5.4 ms
+   200       pt    100  gap    198.75 bp  time 8.8 ms
+   200       pt    300  gap    179.71 bp  time 18.1 ms
+   200       pt   1000  gap    176.19 bp  time 55.1 ms
+
+written to "results"
